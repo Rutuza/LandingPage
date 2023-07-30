@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.box3
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap .bg
+{
+    opacity: 0.8;
+}
+.content
+{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    margin: 5rem 10rem;
+}
+
+.content h2{
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.content p
+{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.srch
+{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.rect
+{
+    margin-left: 7rem;
+}
+.location .city
+{
+    position: absolute;
+    left: 2rem;
+    margin-top: 0.5rem;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.dropdown-icon
+{
+    width: 10px;
+    position: absolute;
+    left: 8rem;
+    margin: 0.7rem;
+}
+
+.vert-line
+{
+    position: absolute;
+    left: 10rem;
+    margin-top: 0.5rem;
+}
+
+.search-food p
+{
+    border: none; 
+    color: grey;
+    font-size: 12px;  
+    margin-top: -0.8rem;
+    margin-left: 2rem;
+}
+
+.loc
+{
+    width: 5%;
+    position: absolute;
+    left: 0.5rem;
+    margin-top: 0.3rem;
+}
+.srch-icon
+{
+    width: 15px;
+    position: relative;
+    margin-left: -14rem;
+    top: 0.6rem;
+    
+}
+/* .box4
+{
+    width: 25%;
+    height: 34%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bg
+{
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dp
+{
+    width: 95px;
+    height: 95px;
+    border: 3.5px solid white;
+    border-radius: 200%;
+    position: absolute;
+    left: 8.5rem;
+    top: 3.5rem;
+}
+
+.desc
+{
+    text-align: center;
+    padding: 3.5rem 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name
+{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.summ
+{
+    color: grey;
+    margin-top: 0.5rem;
+    font-size: 18px;
+} */
+
+/* .box2
+{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap
+{
+    padding: 1rem 1rem;
+}
+
+.beach-img
+{
+    width: 100%;
+    height: 50vh;
+    border-radius: 15px;
+}
+.content
+{
+    position: absolute;
+    top: 8.5rem;
+    color: white;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.heading
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+.lorem
+{
+    margin: 1.5rem auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 560;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    
+
+} */
+
+/*.box1
+{
+  width: 35%;
+  height: 67vh;
+  border: 2px solid rgb(176, 175, 175);
+  border-radius: 20px;   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrap
+{
+    padding: 1rem 1rem;
+}
+
+.wrap img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.promotion
+{
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    background-color: rgba(141, 141, 141, 0.567);
+    color: rgb(221, 221, 221);
+    position: absolute;
+    top: 2rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.offer
+{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 12rem;
+    padding: 0.2rem 0.5rem;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: rgb(30, 120, 255);
+
+}
+
+.time-left
+{
+    width: 10%;
+    text-align: center;
+    background-color: #f3f3f3d4;
+    color:black;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 12rem;
+    transform: translateX(820%); 
+    font-size: 15px;
+}
+
+.title
+{
+    margin: 1rem auto;
+}
+
+.title .type
+{
+    color: grey;
+}
+
+.line
+{
+    width: 100%;
+    border: 1px solid rgb(206, 203, 203);
+}
+
+.logo img
+{
+    width: 17%;
+    height: 5vh;
+    border-radius: 0%;
+    margin: 1rem 0.3rem;    
+}
+
+.instruction
+{
+    margin-left: 20%;
+    color: grey;
+    position: absolute;
+    bottom: 1rem;
+    
+} */

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    /* background-image: url("http://source.unsplash.com/1600x1000/?weather"); */
+    background-image: url(./CloudSun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+}
+
+.top-flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card
+{
+    width: 500px;
+    height: 1015px;
+    background: rgba(212, 212, 212, 0.10);;
+    border: 2px solid white;
+}
+
+.search
+{
+    text-align: center;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.841);
+    border: none;
+    color: white;
+    margin: 29px 58px 0 90px; 
+}
+
+.rec
+{
+    margin: 20px 20px;
+}
+.rec-head
+{
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rec .line
+{
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.cities
+{
+    padding: 20px 20px;
+}
+.cities li
+{
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.weather-details
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.lower-flex
+{
+    display: flex;
+    gap: 30px;
+    font-size: 50px;
+    position: absolute;
+    bottom: 50px;
+    margin: 2rem 5rem;
+}
+
+.condition
+{
+    font-size: 15px;
+    text-align: right;
+}
+
