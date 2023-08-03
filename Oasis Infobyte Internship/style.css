@@ -27,15 +27,38 @@ header
     gap: 30px;
 }
 
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input
+{
+    width: 110%;
+    height: 30px;
+    color: grey;
+    border: none;
+    padding: 0 25px 0 0;
+}
 .mid div:hover
 {
     color: rgb(244, 143, 160);
 }
 
-.nav .right
+.right div:hover
+{
+    color: rgb(244, 143, 160);
+    text-decoration: underline;
+}
+
+.right
 {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg-img
@@ -45,6 +68,8 @@ header
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 .text
 {
     position: absolute;
@@ -103,6 +128,7 @@ button
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 15px 0;
 }
 
 .category
