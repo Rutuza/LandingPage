@@ -8,44 +8,63 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="top-flex">
-        <div class="logo">weather.api</div>  
-        
-        <div class="time-date">06:10 AM - Friday 28 Jul '23</div>
-        
-        <div class="card">
-            <input class="search" type="search" placeholder="Next location">
-            <div class="rec">
-                <p class="rec-head">Recent search</p>
-                <div class="line"></div>
-            </div>
-
-            <div class="cities">
-                <ul class="c">
-                    <li>New York</li>
-                    <li>California</li>
-                    <li>Banglore</li>
-                    <li>Tokyo</li>
-                    <li>Delhi</li>
-                </ul>
-            </div>
-        </div>
+    <div class="weather-app">
+        <div class="container">
+            <div class="logo">
+                <img class="img" src="./lightening.png" alt="">
+                <span>tormdare</span>
+            </div>    
+            <!-- <div class="time-date">06:10 AM - Friday 28 Jul '23</div> -->
             
-    </div>
-
-
-
-
-
-
-
-
-    <div class="lower-flex">
-        <div class="temp">16&#176</div>
-        <div class="city-condition">
-            <div class="city-name">London</div>
-            <small><div class="condition">Cloudy</div></small>
+            <div class="card">
+                <input class="search" type="text" placeholder="Search Location"> <span><button class="close-btn"><img src="./magnifying-glass.png" alt=""></button></span>
+                <div class="rec">
+                    <p class="rec-head">Recent search</p>
+                </div>
+    
+                <div class="cities">
+                    <ul class="c">
+                        <li>New York</li>
+                        <li>California</li>
+                        <li>Banglore</li>
+                        <li>Tokyo</li>
+                        <li>Delhi</li>
+                    </ul>
+                </div>
+    
+                <!-- weather details -->
+                <div class="details">
+                    <div class="title">Weather Details</div>
+                    <div class="flexbox">
+                        <div>
+                            <div class="icon"></div>
+                            <div class="text">Cloudy</div>
+                            <div class="percentage">86%</div>
+                        </div>
+                        <div>
+                            <div class="icon"></div>
+                            <div class="text">Humidity</div>
+                            <div class="percentage">55%</div>
+                        </div>
+                        <div>
+                            <div class="icon"></div>
+                            <div class="text">Wind speed</div>
+                            <div class="percentage">8km/hr</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
         </div>
+    
+        <div class="bottom-left">
+            <div class="temp">16&#176</div>
+            <div class="city-condition">
+                <div class="city-name">London</div>
+                <small><div class="condition">Cloudy</div></small>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>

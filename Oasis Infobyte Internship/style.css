@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    background-color: rgb(25, 24, 24);
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.nav .mid
+{
+    display: flex;
+    gap: 30px;
+}
+
+.mid div:hover
+{
+    color: rgb(244, 143, 160);
+}
+
+.nav .right
+{
+    display: flex;
+    gap: 20px;
+}
+
+.bg-img
+{
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+}
+
+.text .main-heading
+{
+    padding: 10px 0;
+    font-size: 3rem;
+}
+
+button
+{
+    width: 30%;
+    border: none;
+    background: none;
+    padding: 15px 20px;
+    background-color: rgb(244, 143, 160);
+    border-radius: 40px;
+}
+.btn
+{
+    font-size: 0.5rem;
+    color: white;
+}
+
+
+.flex-btm
+{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.card
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.category
+{
+    font-size: 2.3rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.old
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content 
+{
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -2;
+    left: 0;
+}
+
+.look-btn
+{
+    width: 50%;
+    border-radius: 0;
+}
+
+.look-btn div
+{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.join-us
+{
+    background-color: black;
+    margin: 50px auto;
+    padding: 30px 0;
+    color: white;
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-us .join
+{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    color: grey;
+    /* background-color: blue; */
+    
+}
