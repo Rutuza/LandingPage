@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: whitesmoke;
+}
+
+.right
+{
+    display: flex;
+    gap: 30px;
+}
+
+.right .nav-ele
+{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-ele a
+{
+    text-decoration: none;
+    color: black;
+}
