@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 *
 {
     margin: 0;
@@ -5,6 +6,18 @@
     box-sizing: border-box;
 }
 
+.logo
+{
+    font-size: 2rem;
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(244, 143, 160);
+
+}
+.ratio
+{
+    width: 350px;
+    height: 350px;
+}
 header
 {
     width: 100%;
@@ -30,18 +43,30 @@ header
 .search
 {
     display: flex;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
 .search input
 {
-    width: 110%;
+    width: 150%;
     height: 30px;
     color: grey;
     border: none;
     padding: 0 25px 0 0;
+    outline: none;
+    border-radius: 5px solid;
 }
+
+.search img
+{
+    width: 24px;
+    height: 25px;
+    margin-left: 2px;
+    background-color: transparent;
+}
+
 .mid div:hover
 {
     color: rgb(244, 143, 160);
@@ -73,7 +98,7 @@ header
 .text
 {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -87,14 +112,13 @@ header
     font-size: 3rem;
 }
 
-button
+.menu-btn
 {
-    width: 30%;
-    border: none;
-    background: none;
-    padding: 15px 20px;
-    background-color: rgb(244, 143, 160);
-    border-radius: 40px;
+   padding: 1em 1em;
+   background-color: rgb(244, 143, 160);
+   border: none;
+   border-radius: 2px solid;
+   color: white;
 }
 .btn
 {
@@ -204,17 +228,13 @@ button
 
 .mail .sign-up
 {
-    border: 1px solid;
-    border-radius: 2px;
-    width: 60%;
-    height: 10px;
-}
-
-.sign-up div
-{
+    width: 80px;
+    height: 30px;
     text-align: center;
+    background-color: #F48FA0;
     color: white;
-    margin-top: -5px;
+    border: none;
+    padding: 1em 0.5em;
 }
 footer
 {
