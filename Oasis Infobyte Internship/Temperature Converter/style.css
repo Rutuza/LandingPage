@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.panel
+{
+    display: flex;
+    gap: 30px;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.panel .cel
+{
+    background-color: blue;
+    text-align: center;
+    padding: 1rem 1rem;
+    min-height: 20vh;
+}
+
+.panel .far
+{
+    background-color: red;
+    text-align: center;
+    padding: 1rem 1rem;
+    min-height: 20vh;
+}
+
+.panel .kel
+{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 1rem 1rem;
+    min-height: 20vh;
+}
